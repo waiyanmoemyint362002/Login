@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<body>
+  <div class="hero">
+    <div class="form-box">
+      <div class="losnackbar">Please Register!</div>
+      <div class="rgsnackbar">Fill All Input fields!</div>
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Login In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+      </div>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-google-plus"></i>
+      </div>
+
+      <form action="" class="input-group loginactive" id="login">
+        <input type="text" class="input-field" placeholder="User Id" id="loId" required>
+        <input type="text" class="input-field" placeholder="Enter Password" id="loPassword" required>
+        <input type="checkbox" name="" id="" class="check-box" onclick="che()"><span id="bold">Remermber
+          Password</span>
+        <button type="submit" id="loButton" class="submit-btn">Log in</button>
+        <p class="loginSuccess">Success Login&nbsp;<i class="fas fa-check"></i></p>
+      </form>
+
+      <form action="" class="input-group" id="register">
+        <input type="text" class="input-field" placeholder="User Id" required id="reId">
+        <input type="email" name="" id="reEmail" class="input-field" placeholder="Email Id" required>
+        <input type="text" class="input-field" id="rePassword" placeholder="Enter Password" required>
+        <input type="checkbox" name="" id="" class="check-box"><span>I agree to terms & conditions</span>
+        <button type="submit" id="reButton" class="submit-btn">Register</button>
+        <p class="registerSuccess">Success Register&nbsp;<i class="fas fa-check"></i></p>
+
+      </form>
+
+    </div>
+  </div>
